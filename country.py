@@ -5,10 +5,10 @@ def check(file, country):
     df = pd.read_csv(file)
     data_country = df.loc[df["Country/Region"] == country]
     
-    total_days = len(p.columns) - 4
+    total_days = len(data_country.columns) - 4
     x_data = data_country.columns[4:]
-
-    y_data = [data_country[date].values[0] for date in dates]
+    dates = list(data_country.columns[4:])
+    y_data = [data_country[date].sum() for date in dates]
 
 
     return x_data, y_data, data_country
