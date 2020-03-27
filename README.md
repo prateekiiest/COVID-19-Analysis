@@ -16,6 +16,8 @@ Data collected from https://systems.jhu.edu/research/public-health/ncov/
 
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~prateekkol21/85.embed"></iframe>
+
+
 ## India Cases
 
 ![](https://raw.githubusercontent.com/prateekiiest/COVID-19-Analysis/master/newplot%20(2).png)
